@@ -15,7 +15,7 @@ let dummyTodos = [
         account:{
             idx: '0',
             content: 'Finish the essay collaboration',
-            marked: false,
+            marked: true,
         }
 
     },
@@ -51,7 +51,7 @@ let dummyTodos = [
     {
         account:{
             idx: '5',
-            content: 'Read english book chapter 5',
+            content: 'Read english book chapter 6',
             marked: true,          
         }
     },
