@@ -1,7 +1,10 @@
 {
     "scripts": {
         "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
-        "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+        "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check",
+        "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
+        "build": "webpack --config=Scripts/config/webpack.prod.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
         "@project-serum/anchor": "^0.24.2"
